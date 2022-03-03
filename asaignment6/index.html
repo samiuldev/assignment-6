@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript"
+        src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=SKNkZ1cjASBQxnNbSoncZNxEugiTbSvQ1Ze_mwV5Mi1kIjeNVj4Ixdxy0CZ-pjf3p1Tvtw1B6xleDs3a74NLKEm6NiP9h1qvgXCQwNe4_kEYh4vPJwC7gBklHAkY5NGl8jeNAQQwAlAR07-UIS-MLtCAwjK0UEkLj6HIRgKiC9fL5gZ7snMOjhARgpbaB297"
+        charset="UTF-8"></script>
+    <link rel="stylesheet" crossorigin="anonymous"
+        href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kYXp6bGluZy1mcmFua2xpbi00NzBkOGUubmV0bGlmeS5hcHAvP2ZiY2xpZD1Jd0FSM0lxdmVOc25WajA4alNBbE5oVTlHMXU5VnJmVm5PYmEwN3ZsRm5GaVFZWWVuYm5uR0ZRNGl2Z1kw" />
+
+    
+        <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="display-3 m-3 text-bolder text-center">Wecome to Phone Store</h1>
+    </header>
+    <main>
+        <h1 class="text-center text-bold mb-3 mt-5">Search Your Device</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="container d-flex">
+                        <input class="w-75 text-center" placeholder="Type your phone name" type="text" id="search-box">
+                        <button class="btn ms-2 bg-outline-none btn-info" onclick="loadphone ()" id="search-btn"
+                            type="submit">Search</button>
+                    </div>
+                    <div class="row">
+                        <div id="phone-Info" class="container m-3">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Error can not handle, -->
+            <!-- <div id="errorMassege" class="container">
+            
+            </div> -->
+            <div id="phone-container" class="row g-3">
+
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- javascript file -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
